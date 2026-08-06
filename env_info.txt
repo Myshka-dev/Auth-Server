@@ -1,0 +1,5 @@
+JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\  
+C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin\java.exe
+C:\Program Files\Common Files\Oracle\Java\javapath\java.exe
+C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin\javac.exe
+C:\Program Files\Common Files\Oracle\Java\javapath\javac.exe
