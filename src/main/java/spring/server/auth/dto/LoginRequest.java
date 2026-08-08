@@ -1,16 +1,16 @@
 package spring.server.auth.dto;
 
-import lombok.*;
 import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 
+public record LoginRequest(
+    @NotBlank(message = "Login is required")
+    String login,
 
-@Getter
-@Setter
-public class LoginRequest {
-    private String login;
+    @Email(message = "email must be in this format: name@gmail.com")
+    String email,
 
-    @Email
-    private String email;
-    private String password;
+    @NotBlank(message = "Password is required")
+    String password
 
-}
+) {}
